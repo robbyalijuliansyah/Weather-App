@@ -55,7 +55,7 @@ weather-app/
 git clone https://github.com/robbyalijuliansyah/Weather-App.git
 cd Weather-App
 
-### 2. Clone Repository
+2. Setup API Key
 Daftar di OpenWeatherMap
 
 Dapatkan API Key gratis
@@ -66,8 +66,7 @@ Ganti YOUR_API_KEY_HERE dengan API Key Anda:
 
 javascript
 const API_KEY = 'your_actual_api_key_here';
-
-### 3. Jalankan Aplikasi
+3. Jalankan Aplikasi
 Buka file index.html di browser atau gunakan live server:
 
 bash
@@ -116,6 +115,22 @@ Aplikasi dioptimalkan untuk:
 
 ✅ Mobile (< 768px)
 
+🛠️ Teknologi yang Digunakan
+HTML5 - Struktur website
+
+CSS3 - Styling dan layout responsif
+
+JavaScript - Logika aplikasi dan API calls
+
+OpenWeatherMap API - Data cuaca real-time
+
+📁 Struktur Project
+text
+Weather-App/
+├── index.html          # File utama HTML
+├── style.css           # Stylesheet untuk styling
+├── script.js           # JavaScript logic
+└── README.md           # Dokumentasi ini
 🐛 Troubleshooting
 Masalah Umum:
 Kota tidak ditemukan
