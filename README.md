@@ -55,7 +55,7 @@ weather-app/
 git clone https://github.com/robbyalijuliansyah/Weather-App.git
 cd Weather-App
 
-2. Setup API Key
+### 2. Clone Repository
 Daftar di OpenWeatherMap
 
 Dapatkan API Key gratis
@@ -67,7 +67,7 @@ Ganti YOUR_API_KEY_HERE dengan API Key Anda:
 javascript
 const API_KEY = 'your_actual_api_key_here';
 
-3. Jalankan Aplikasi
+### 3. Jalankan Aplikasi
 Buka file index.html di browser atau gunakan live server:
 
 bash
