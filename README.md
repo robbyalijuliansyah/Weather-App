@@ -18,14 +18,14 @@ Aplikasi cuaca sederhana dan responsif yang menampilkan informasi cuaca real-tim
 
 ## 🚀 Demo
 
-Aplikasi dapat diakses di: **[https://your-username.github.io/weather-app](https://your-username.github.io/weather-app)**
+Aplikasi dapat diakses di: **[https://robbyalijuliansyah.github.io/Weather-App](https://your-username.github.io/weather-app)**
 
-*(Ganti `your-username` dengan username GitHub Anda)*
+
 
 ## 📸 Screenshot
 
-![Weather App Screenshot](https://via.placeholder.com/800x400/74b9ff/ffffff?text=Weather+App+Screenshot)
-*Contoh tampilan aplikasi cuaca*
+![Weather App Screenshot](
+    ![Tampilan Weather-App](image.png)
 
 ## 🛠️ Teknologi
 
@@ -35,3 +35,17 @@ Aplikasi dapat diakses di: **[https://your-username.github.io/weather-app](https
 - **OpenWeatherMap API** - Data cuaca real-time
 
 ## 📁 Struktur Project
+weather-app/
+├── index.html # File utama HTML
+├── style.css # Stylesheet untuk styling
+├── script.js # JavaScript logic
+└── README.md # Dokumentasi ini
+└── image.png # Tampilan Weather-App
+
+
+## 🔧 Instalasi & Penggunaan
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/robbyalijuliansyah/Weather-App.git
+cd Weather-App
