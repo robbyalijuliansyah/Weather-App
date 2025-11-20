@@ -54,104 +54,84 @@ weather-app/
 ```bash
 git clone https://github.com/robbyalijuliansyah/Weather-App.git
 cd Weather-App
+```
 
-2. Setup API Key
-Daftar di OpenWeatherMap
-
-Dapatkan API Key gratis
-
-Buka file script.js
-
-Ganti YOUR_API_KEY_HERE dengan API Key Anda:
-
+### 2. Setup API Key
+1. Daftar di **[OpenWeatherMap API](https://openweathermap.org/api)**
+2. Dapatkan API Key gratis
+3. Buka file script.js
+4. Ganti YOUR_API_KEY_HERE dengan API Key Anda:
+```
 javascript
 const API_KEY = 'your_actual_api_key_here';
-3. Jalankan Aplikasi
-Buka file index.html di browser atau gunakan live server:
+```
 
+### 3. Jalankan Aplikasi
+Buka file index.html di browser atau gunakan live server:
+```
 bash
 # Jika memiliki live server extension
 live-server
 
 # Atau langsung buka file di browser
+```
 open index.html
-🎯 Cara Menggunakan
-Buka aplikasi di browser
 
-Masukkan nama kota di kolom pencarian
+## 🎯 Cara Menggunakan
+1. Buka aplikasi di browser
+2. Masukkan nama kota di kolom pencarian
+3. Klik "Cari" atau tekan Enter
+4. Lihat informasi cuaca yang ditampilkan
 
-Klik "Cari" atau tekan Enter
+## Contoh Pencarian:
+- Jakarta
+- Surabaya
+- Bandung
+- Bali
+- London
+- New York
 
-Lihat informasi cuaca yang ditampilkan
+## 🌐 API yang Digunakan
+Aplikasi menggunakan **[OpenWeatherMap API](https://openweathermap.org/api)** untuk:
+- Data cuaca current
+- Ikon kondisi cuaca
+- Informasi tambahan (kelembapan, angin, dll)
 
-Contoh Pencarian:
-Jakarta
-
-Surabaya
-
-Bandung
-
-Bali
-
-London
-
-New York
-
-🌐 API yang Digunakan
-Aplikasi menggunakan OpenWeatherMap API untuk:
-
-Data cuaca current
-
-Ikon kondisi cuaca
-
-Informasi tambahan (kelembapan, angin, dll)
-
-📱 Responsive Design
+## 📱 Responsive Design
 Aplikasi dioptimalkan untuk:
+- ✅ Desktop (1024px+)
+- ✅ Tablet (768px - 1024px)
+- ✅ Mobile (< 768px)
 
-✅ Desktop (1024px+)
+## 🛠️ Teknologi yang Digunakan
+- HTML5 - Struktur website
+- CSS3 - Styling dan layout responsif
+- JavaScript - Logika aplikasi dan API calls
+- OpenWeatherMap API - Data cuaca real-time
 
-✅ Tablet (768px - 1024px)
-
-✅ Mobile (< 768px)
-
-🛠️ Teknologi yang Digunakan
-HTML5 - Struktur website
-
-CSS3 - Styling dan layout responsif
-
-JavaScript - Logika aplikasi dan API calls
-
-OpenWeatherMap API - Data cuaca real-time
-
-📁 Struktur Project
+## 📁 Struktur Project
+```
 text
 Weather-App/
 ├── index.html          # File utama HTML
 ├── style.css           # Stylesheet untuk styling
 ├── script.js           # JavaScript logic
 └── README.md           # Dokumentasi ini
-🐛 Troubleshooting
-Masalah Umum:
-Kota tidak ditemukan
+```
 
-Pastikan ejaan nama kota benar
+## 🐛 Troubleshooting
+### Masalah Umum:
+1. Kota tidak ditemukan
+    - Pastikan ejaan nama kota benar
+    - Gunakan nama kota dalam bahasa Inggris
+2. API Key error
+    - Pastikan API Key sudah diatur
+    - Tunggu beberapa jam setelah registrasi (aktivasi API Key)
+3. Tampilan tidak responsif
+    - Clear cache browser
+    - Refresh halaman
 
-Gunakan nama kota dalam bahasa Inggris
-
-API Key error
-
-Pastikan API Key sudah diatur
-
-Tunggu beberapa jam setelah registrasi (aktivasi API Key)
-
-Tampilan tidak responsif
-
-Clear cache browser
-
-Refresh halaman
-
-🤝 Berkontribusi
+## 🤝 Berkontribusi
 Kontribusi selalu diterima! Ikuti langkah:
 
 Fork project
@@ -180,5 +160,6 @@ OpenWeatherMap untuk API cuaca
 Font Awesome untuk ikon
 
 Shields.io untuk badges
+
 
 ⭐ Jangan lupa beri star jika project ini membantu!
