@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherPro - Aplikasi Cuaca Modern</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Background animasi -->
+        <div class="background-animation">
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+            <div class="sun"></div>
+        </div>
+
+        <div class="container">
+            <!-- Header -->
+            <header class="app-header">
+                <h1><i class="fas fa-cloud-sun"></i> WeatherPro</h1>
+                <p class="app-subtitle">Informasi cuaca real-time</p>
+            </header>
+
+            <!-- Search Section -->
+            <div class="search-section">
+                <div class="search-container">
+                    <div class="search-box">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" id="city-input" placeholder="Cari kota...">
+                        <button id="search-btn" class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <button id="location-btn" class="location-btn" title="Gunakan lokasi saya">
+                        <i class="fas fa-location-arrow"></i>
+                    </button>
+                </div>
+                
+                <!-- Riwayat Pencarian -->
+                <div class="search-history" id="search-history">
+                    <h3>Riwayat Pencarian</h3>
+                    <div class="history-list" id="history-list">
+                        <!-- Riwayat akan dimuat di sini -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading -->
+            <div class="loading" id="loading">
+                <div class="loading-spinner"></div>
+                <p>Memuat data cuaca...</p>
+            </div>
+
+            <!-- Weather Info -->
+            <div class="weather-info" id="weather-info">
+                <!-- Data cuaca akan ditampilkan di sini -->
+            </div>
+
+            <!-- Error Message -->
+            <div class="error-message" id="error-message">
+                <!-- Pesan error akan ditampilkan di sini -->
+            </div>
+
+            <!-- Footer -->
+            <footer class="app-footer">
+                <p>Dibuat dengan <i class="fas fa-heart"></i> menggunakan OpenWeatherMap API</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
