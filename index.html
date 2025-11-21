@@ -66,11 +66,17 @@
 
             <!-- Footer -->
             <footer class="app-footer">
-                <p>Dibuat dengan <i class="fas fa-heart"></i> menggunakan OpenWeatherMap API</p>
+                <p>
+                    &copy; <span id="year"></span> | Dibuat oleh <strong>Robby Ali Juliansyah</strong> 
+                    dengan <i class="fas fa-heart"></i> menggunakan OpenWeatherMap API
+                </p>
             </footer>
         </div>
     </div>
-
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
     <script src="script.js"></script>
 </body>
+
 </html>
